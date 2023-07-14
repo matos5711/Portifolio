@@ -1,0 +1,43 @@
+.body-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #000;
+  font-family: Roboto;
+}
+
+.container {
+  width: 503px;
+  height: 403px;
+  background-color: #0c0b0a;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 2px 2px 7px 2px #141312;
+}
+
+.quadrado {
+  width: 150px;
+  height: 50px;
+  border-radius: 8px;
+  background-color: #353535;
+  display: flex;
+  align-items: center;
+  color: white;
+  box-shadow: 1px 0.75px 4px 0.4px #636363;
+}
+
+.quadrado i img {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+.quadrado span {
+  font-size: 18px;
+}

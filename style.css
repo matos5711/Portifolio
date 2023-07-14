@@ -1,6 +1,7 @@
 body {
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
+  background: #000;
 }
 h1,
 ul,
@@ -8,7 +9,6 @@ p {
   margin: 0px;
 }
 ul {
-  margin: 0px;
   padding: 0px;
   list-style: none;
 }
@@ -72,6 +72,9 @@ img {
     background: #000000;
     border-radius: 4px;
   }
+  .menu {
+    margin-top: 15px;
+  }
   .header a::after {
     display: none;
   }
@@ -87,4 +90,37 @@ img {
 .introducao-bg {
   background: #0c0b0a;
   color: #fff;
+  padding-top: 1rem;
+}
+.introducao-bg img {
+  display: flex;
+  justify-content: center;
+  width: 33.33%;
+  margin: auto;
+  margin-top: 30px;
+}
+.introducao h1,
+h2,
+p {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.introducao h1,
+h2 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 40px;
+  color: #8f7a32;
+}
+.introducao p {
+  font-size: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.habilidades {
+  background: #000;
+}
+.menu {
+  width: 90%;
 }
