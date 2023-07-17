@@ -12,7 +12,7 @@
 .container {
   width: 403px;
   height: 403px;
-  background-color: #0c0b0a;
+  background-color: #080808;
   border-radius: 10px;
   display: grid;
   grid-template-columns: repeat(2, 180px);
