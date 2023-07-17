@@ -3,37 +3,46 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin: 0;
   background: #000;
   font-family: Roboto;
+  margin-top: -85px;
+  margin-bottom: -70px;
 }
 
 .container {
-  width: 503px;
+  width: 403px;
   height: 403px;
   background-color: #0c0b0a;
   border-radius: 10px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
+  grid-template-columns: repeat(2, 180px);
   justify-items: center;
   align-items: center;
-  padding: 10px;
   box-shadow: 2px 2px 7px 2px #141312;
 }
 
 .quadrado {
+  margin-left:50px;
   width: 150px;
   height: 50px;
   border-radius: 8px;
-  background-color: #353535;
+  background-color: #4b4b4b;
   display: flex;
   align-items: center;
   color: white;
   box-shadow: 1px 0.75px 4px 0.4px #636363;
 }
+.quadrado:not(:hover){
+  opacity: 0.8;
+  background: #353535 
 
-.quadrado i img {
+}
+.quadrado:hover{
+  scale: 1.1;
+  transition: 0.4s;
+}
+
+.quadrado  img {
   width: 30px;
   height: 30px;
   margin: 10px;

@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Portfolio de desenvolvedor front-end." />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./Tools.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/Tools.css" />
   </head>
   <body>
     <header class="header-bg">
@@ -46,9 +46,6 @@
                   class="media-object img-responsive img-thumbnail"
               /></a>
             </li>
-            <li>
-              <img class="menu" src="./IMG/Redes sociais/Menu.svg" alt="Menu" />
-            </li>
           </ul>
         </nav>
       </div>
@@ -62,7 +59,9 @@
           em desenvolvimento de sites responsivos e com uma estética que
           represente você e a sua marca.
         </p>
-        <img src="./IMG/VETOR.svg" alt="Desenho vetorial" />
+        <div class="vetor">
+          <img src="./IMG/VETOR.svg" alt="Vetor" />
+        </div>
 
         <div class="habilidades">
           <h2 class="Designer">Designer</h2>
@@ -72,66 +71,89 @@
             ao seu site.
           </p>
           <h2>Tecnologias e Ferramentas</h2>
+          <p>A tabela abaixo contém tecnologias e ferramentas que eu domino e utilizo para desenvolver sites responsivos e estéticamente atraentes para o cliente.
+          </p>
           <div class="body-container">
             <div class="container">
-              <div class="quadrado">
-               <img src="./IMG/Tecnologias/icons8-figma(1).svg" alt="Figma" />
-                <span>Figma</span>
-              </div>
-              <div class="quadrado">
-                <i>
+              <a href="https://www.figma.com/best-practices/guide-to-developer-handoff/components-styles-and-documentation/" target="_blank" rel="noopener noreferrer">
+                <div class="quadrado">
+                  <img src="./IMG/Tecnologias/icons8-figma(1).svg" alt="Figma" />
+                  <span>Figma</span>
+                </div>
+              </a>
+              <a href="https://code.visualstudio.com/docs" target="_blank" rel="noopener noreferrer">
+                <div class="quadrado">
                   <img
                     src="./IMG/Tecnologias/icons8-visual-studio-code-2019.svg"
                     alt="VS Code icone"
-                /></i>
-                <span>Wordpress</span>
-              </div>
-              <div class="quadrado">
-                <i>
+                  />
+                  <span>VS Code</span>
+                </div>
+              </a>
+              <a href="https://www.typescriptlang.org/pt/docs/handbook/typescript-in-5-minutes.html" target="_blank" rel="noopener noreferrer">
+                <div class="quadrado">
                   <img
                     src="./IMG/Tecnologias/icons8-typescript.svg"
                     alt="TypeScript icone"
-                /></i>
-                <span>TypeScript</span>
-              </div>
-              <div class="quadrado">
-                <i>
+                  />
+                  <span>TypeScript</span>
+                </div>
+              </a>
+              <a href="https://getbootstrap.com.br/docs/4.1/getting-started/introduction/"target="_blank" rel="noopener noreferrer">
+                <div class="quadrado">
                   <img
                     src="./IMG/Tecnologias/icons8-bootstrap.svg"
                     alt="Bootstrap icone"
-                /></i>
-                <span>Bootstrap 4</span>
-              </div>
-              <div class="quadrado">
-                <i>
+                  />
+                  <span>Bootstrap 4</span>
+                </div>
+              </a>
+              <a href="https://br.wordpress.org/plugins/documentation/"target="_blank" rel="noopener noreferrer">
+                <div class="quadrado">
                   <img
                     src="./IMG/Tecnologias/icons8-wordpress.svg"
                     alt="Wordpress icone"
-                /></i>
-                <span>Wordpress</span>
-              </div>
-              <div class="quadrado">
-                <i> <img src="./IMG/Tecnologias/icons8-npm.svg" alt="Npm icone" /></i>
-                <span>Npm</span>
-              </div>
-              <div class="quadrado">
-                <i>
-                  <img src="./IMG/Tecnologias/icons8-reagir.svg" alt="React icone"
-                /></i>
-                <span>React</span>
-              </div>
-              <div class="quadrado">
-                <i>
+                  />
+                  <span>Wordpress</span>
+                </div>
+              </a>
+              <a href="https://www.npmjs.com/package/documentation"target="_blank" rel="noopener noreferrer">
+                <div class="quadrado">
+                  <img src="./IMG/Tecnologias/icons8-npm.svg" alt="Npm icone" />
+                  <span>Npm</span>
+                </div>
+              </a>
+              <a href="https://pt-br.legacy.reactjs.org/docs/getting-started.html"target="_blank" rel="noopener noreferrer">
+                <div class="quadrado">
+                  <img
+                    src="./IMG/Tecnologias/icons8-reagir.svg"
+                    alt="React icone"
+                  />
+                  <span>React</span>
+                </div>
+              </a>
+              <a href="https://262.ecma-international.org/5.1/"target="_blank" rel="noopener noreferrer">
+                <div class="quadrado">
                   <img
                     src="./IMG/Tecnologias/icons8-javascript.svg"
                     alt="JavaScript icone"
-                /></i>
-                <span>JavaScript</span>
-              </div>
+                  />
+                  <span>JavaScript</span>
+                </div>
+              </a>
             </div>
           </div>
-          </div>
-          
+        </div>
+      </div>
     </main>
+    <footer>
+      <div class="footer-bg">
+        <p>
+          Um desenvolvedor Web focado em Frontend, construindo sites e
+          aplicativos da Web que cria personalidade e estética para sua marca.
+        </p>
+        <p>© Copyright 2023. Made by João Pedro Matos.</p>
+      </div>
+    </footer>
   </body>
 </html>
